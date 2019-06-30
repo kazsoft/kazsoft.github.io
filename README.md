@@ -1,1 +1,0 @@
-# kazsoft.github.io
