@@ -1,4 +1,4 @@
-/* https://newtodesing.com/ 
+/* https://newtodesing.com/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -21,8 +21,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -33,7 +33,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -49,8 +49,10 @@ body {
 	text-rendering : optimizeLegibility;
 	-webkit-font-smoothing : antialiased;
 	font-size: 19px;
-	background-color: #FEFEFE;
-	color: #04143A;
+	/* background-color: #FEFEFE; */
+	/* color: #04143A; */
+	color: #c4c4c4;
+	background-color: #1d2235;
 }
 ol, ul {
 	list-style: none;
@@ -94,7 +96,7 @@ div , footer {
 }
 
 .hero {
-	margin: 50px auto; 
+	margin: 50px auto;
 	position: relative;
 }
 
@@ -106,14 +108,14 @@ h1.name {
 
 .job-title {
 	vertical-align: top;
+	color: #114b5f;
 	background-color: #D9E7F8;
-	color: #4A90E2;
 	font-weight: 600;
 	margin-top: 5px;
-	margin-left: 20px;
+	margin-left: 36px;
+	padding: 15px 25px;
 	border-radius: 5px;
 	display: inline-block;
-	padding: 15px 25px;
 }
 
 .email {
@@ -125,7 +127,7 @@ h1.name {
 }
 
 .lead {
-	font-size: 44px;
+	font-size: 42px;
 	font-weight: 300;
 	margin-top: 60px;
 	line-height: 55px;
@@ -337,8 +339,8 @@ li .description {
 }
 .description::before {
   content: '';
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-bottom: 5px solid #f4f4f4;
